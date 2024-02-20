@@ -1,0 +1,10 @@
+/* YourSwiperStyles.css */
+.swiper-slide img {
+    width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ kích thước của slide */
+    height: auto;
+    transition: transform 0.3s ease; /* Hiệu ứng chuyển động */
+  }
+  
+  .swiper-slide:hover img {
+    transform: scale(1.3); /* Hiệu ứng phóng to khi hover */
+  }
