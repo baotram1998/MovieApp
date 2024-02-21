@@ -1,9 +1,9 @@
 //import React from 'react'
 
-import ExploreSwiper from "../Swiper/ExploseSwiper"
 import { Helmet } from "react-helmet";
+import MovieSwiper from "../Components/MovieSwiper";
 
-const Explore = () => {
+const ExplorePage = () => {
     return (
         <>
         <Helmet>
@@ -15,13 +15,18 @@ const Explore = () => {
         <div className="heading">
             <h2 className="heading-title">Movies and Shows</h2>
         </div>
-       
-         <ExploreSwiper/>
         </div>
-       
+        <div className="popular-content swiper flex gap-5 flex-wrap justify-between">
+                        <MovieSwiper url={`/explore`} />
+                    </div>  
+        <div className="popular-content swiper flex gap-5 flex-wrap justify-between">
+                        <MovieSwiper url={`/top_rated`} />
+                    </div>  
+                    
+  
         </>    
       )
     
 }
 
-export default Explore
+export default ExplorePage
