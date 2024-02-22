@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import { FiPlay } from "react-icons/fi";
+import { FiPlay } from "react-icons/fi"; 
 //import Skeleton from "react-loading-skeleton";
 import MovieS from "../Components/Movie";
 //import MovieSwiper from "../Components/MovieSwiper";

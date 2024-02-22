@@ -17,7 +17,7 @@ const ExplorePage = () => {
         </div>
         </div>
         <div className="popular-content swiper flex gap-5 flex-wrap justify-between">
-                        <MovieSwiper url={`/explore`} />
+                        <MovieSwiper url={`/now_playing`} />
                     </div>  
         <div className="popular-content swiper flex gap-5 flex-wrap justify-between">
                         <MovieSwiper url={`/top_rated`} />

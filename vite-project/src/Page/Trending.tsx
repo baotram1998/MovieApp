@@ -19,7 +19,7 @@ const TrendingPage = () => {
                     <h2 className="heading-title">Popular Movies</h2>
                 </div>
                 <div className="popular-content swiper flex gap-5 flex-wrap justify-between">
-                    <MovieS url={`/trending`} />
+                    <MovieS url={`/popular`} />
                 </div>
             </section>
     

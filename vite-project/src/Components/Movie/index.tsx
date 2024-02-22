@@ -15,7 +15,8 @@ import "swiper/css/pagination";
 //import Skeleton from "react-loading-skeleton";
 
 
-const API = "https://api.themoviedb.org/3/movie";
+//const API = "https://api.themoviedb.org/3/movie";
+const API = "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc"
 const token = `eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiYmY0YWJjNGUzMTEyYzNhOGIyODMwMWMxYWQwMzllZSIsInN1YiI6IjY0MTI3N2Q2ZTE4ZTNmMDdkMDU1ZjY4OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.iw5OvKuR35yRllO8eoRWjvCQnlFmh8nieiLD9NpSDc8`;
 interface IMovies {
   id: number;
